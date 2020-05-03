@@ -1,0 +1,36 @@
+{
+  "name": "news-chatbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "next",
+    "build": "next build",
+    "start": "next start -p $PORT",
+    "heroku-postbuild": "npm run build"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@livechat/ui-kit": "^0.4.0-10",
+    "@zeit/next-css": "^1.0.1",
+    "axios": "^0.19.2",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "country-data": "0.0.31",
+    "country-list": "^2.2.0",
+    "dialogflow": "^1.2.0",
+    "dlv": "^1.1.3",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "newsapi": "^2.4.0",
+    "next": "^9.3.5",
+    "next-images": "^1.4.0",
+    "pusher": "^3.0.1",
+    "pusher-js": "^5.1.1",
+    "react": "^16.13.1",
+    "react-chat-ui": "^0.3.2",
+    "react-dom": "^16.13.1"
+  }
+}
